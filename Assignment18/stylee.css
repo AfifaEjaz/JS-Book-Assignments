@@ -1,0 +1,36 @@
+/* .container{
+display: flex; */
+
+
+/* } */
+#clickmeh1, #clickmeh2, #clickmeh3, #clickmeh4{
+
+    height: 400px;
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+
+#image1, #image2 , #image3, #image4{
+    height: 500px;
+    width: 30%;
+    display: none;
+    z-index:0;
+    position: absolute;
+    margin-left: 400px;
+    margin-right: 300px;
+}
+
+.close{
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    display: none;
+}
+
+.heading{
+    text-align: center;
+}
